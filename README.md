@@ -44,7 +44,7 @@ If the Restaurant does not exist, return the following JSON data, along with the
 Get a list of all pizzas in the database
 
 #### POST /restaurant_pizzas
-This route should create a new RestaurantPizza that is associated with an existing Pizza and Restaurant. 
+This route should create a new RestaurantPizza that is associated with an existing Pizza and Restaurant.
 
 ## Project Setup
 ### Requirements
@@ -64,8 +64,9 @@ Working web browser
 3. Open the code on your visual studio code by typing still on the terminal
 ``` code .```
 4. Install dependencies: ```pipenv install```
-5. Open your terminal and enter ```python3 lib/seed.py``` to start add data to your tables.
+5. Open your terminal and enter ```python3 lib/seed.py``` to start data to your tables.
 6. Start the Flask server with ```flask run```
+7. Use the given endpoints above to make requests.
 
 ## Author
 Joanne Ndirangu.

@@ -107,7 +107,7 @@ def getpizzas():
 @app.route('/restaurant_pizzas', methods=['POST'])
 def post_restaurant_pizzas():
     new_restaurant_pizza = RestaurantPizza(
-            id=request.form.get("id"),
+            id=request.form.get("pizza_id"),
             pizza_id=request.form.get("pizza_id"),
             restaurant_id=request.form.get("restaurant_id"),
             price=request.form.get("price"),
