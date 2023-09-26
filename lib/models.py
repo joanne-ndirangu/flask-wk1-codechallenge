@@ -19,7 +19,7 @@ class Restaurant(db.Model, SerializerMixin):
     __tablename__ = 'restaurants'
 
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String)
+    name = db.Column(db.String, unique=True)
     address = db.Column(db.String)
 
 # must have a name less than 50 words in length
